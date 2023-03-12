@@ -122,9 +122,8 @@
           graphics.fillStyle = "green";
         } else if (colorChoice == 3) {
           graphics.fillStyle = "blue";
-          s;
         } else if (colorChoice == 4) {
-          graphics.fillStyle = "pink";
+          graphics.fillStyle = "lime";
         }
         graphics.fill();
 		}
@@ -141,7 +140,7 @@
           } else if (colorChoice == 3) {
             graphics.fillStyle = "blue";
           } else if (colorChoice == 4) {
-            graphics.fillStyle = "black";
+            graphics.fillStyle = "lime";
           }
           if (shape) {
             graphics.fillRect(x - 20, y - 20, 40, 40);
@@ -296,7 +295,7 @@
         <option value="1">Red</option>
         <option value="2">Green</option>
         <option value="3">Blue</option>
-        <option value="4">Black</option>
+        <option value="4">Lime</option>
       </select>
       <button id="changeShape" onclick="shape = !shape">Change shape</button>
       <button id="clearButton" onclick="init()">Clear</button>
